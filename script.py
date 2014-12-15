@@ -27,3 +27,5 @@ else:
 # run game
 game = Game(4, player, verbose=verbose)
 game.play()
+
+print 'Took {} sec'.format(game.get_play_time())
